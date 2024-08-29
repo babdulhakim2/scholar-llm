@@ -1,0 +1,33 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "Scripts for web scraping and other tasks",
+  "main": "index.js",
+  "scripts": {
+    "scrape": "ts-node src/web-scraper.ts",
+    "process": "ts-node src/process-scraped-data.ts",
+    "evaluate": "ts-node src/evaluate-eligibility.ts",
+    "all": "pnpm run scrape && pnpm run process && pnpm run evaluate"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^0.0.46",
+    "@ai-sdk/openai": "^0.0.54",
+    "ai": "^3.3.20",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "install": "^0.13.0",
+    "json2csv": "6.0.0-alpha.2",
+    "pdf-lib": "^1.17.1",
+    "pdf.js-extract": "^0.2.1",
+    "puppeteer": "^15.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/json2csv": "^5.0.7",
+    "@types/puppeteer": "^7.0.4",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}
