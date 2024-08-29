@@ -1,0 +1,9 @@
+
+# .gitignore
+.DS_Store
+node_modules
+pnpm-lock.yaml
+.pnpm-store
+pnpm-debug.log
+.env
+.env.local
