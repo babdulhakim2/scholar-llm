@@ -20,8 +20,8 @@ LLM AI-Powered Scholarship Finder is an intelligent tool that leverages AI to st
 
 1. Clone the repository:
    ```
-   git clone https://github.com/scholar-llm/llm-scholarship-finder.git
-   cd llm-scholarship-finder
+   git clone https://github.com/babdulhakim2/scholar-llm.git
+   cd scholar-llm
    ```
 
 2. Create a `.env` file in the root directory with your API keys:
@@ -32,7 +32,7 @@ LLM AI-Powered Scholarship Finder is an intelligent tool that leverages AI to st
 
 3. Build the Docker image:
    ```
-   docker build -t llm-scholarship-finder .
+   docker build -t scholar-llm .
    ```
 
 ### Using Node.js and pnpm
